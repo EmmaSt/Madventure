@@ -18,16 +18,44 @@
 
   </div>
 
-    <div id="eiginputs">
-          <form name="Eigenschaften" >
-            St: <input type="number" id="St" name="St" min="0" max="20" value="1"><br>
-            Ko: <input type="number" id="Ko" name="Ko" min="0" max="20" value="1"><br>
-            Ge: <input type="number" id="Ge" name="Ge" min="0" max="20" value="1"><br>
-            In: <input type="number" id="In" name="In" min="0" max="20" value="1"><br>
-            We: <input type="number" id="We" name="We" min="0" max="20" value="1"><br>
-            Ch: <input type="number" id="Ch" name="Ch" min="0" max="20" value="1"><br>
-          </form>
-        </div>
+  <div id='race'>
+    <form id="culture">
+      <select id='raceselect' name="race" onchange="racechange()">
+        <option>Rasse auswählen...</option>
+        <option>Chimäre</option>
+        <option>Elf</option>
+        <option>Gnom</option>
+        <option>Großgewachsener</option>
+        <option>Naturgeist</option>
+        <option>Zwerg</option>
+      </select>
+    </form>
+  </div>
+
+  <div id='culture'>
+    <form id="culture">
+      <select id='cultureselect' name="culture">
+        <option>Kultur auswählen...</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </form>
+  </div>
+
+
+  <div id="eiginputs">
+    Eigenschaften <br>
+      <form name="Eigenschaften" >
+        St: <input type="number" id="St" name="St" min="0" max="20" value="1"><br>
+        Ko: <input type="number" id="Ko" name="Ko" min="0" max="20" value="1"><br>
+        Ge: <input type="number" id="Ge" name="Ge" min="0" max="20" value="1"><br>
+        In: <input type="number" id="In" name="In" min="0" max="20" value="1"><br>
+        We: <input type="number" id="We" name="We" min="0" max="20" value="1"><br>
+        Ch: <input type="number" id="Ch" name="Ch" min="0" max="20" value="1"><br>
+      </form>
+  </div>
 
 </body>
 </html>
