@@ -1,6 +1,1 @@
 # Madventure
-
-blabla
-
-
-dgashdghasdgja
