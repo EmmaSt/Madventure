@@ -24,7 +24,7 @@ function racechange(){
 }
 
 function addoption(x, name){
-  var option = document.createElement("option_" + name);
+  var option = document.createElement("option");
   option.text = name;
   x.add(option);
 }
