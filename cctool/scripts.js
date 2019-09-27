@@ -2,7 +2,7 @@ function racechange(){
   var x = document.getElementById('cultureselect');
   var i = 0;
   for (i=0; i<4; i++){
-    x.remove(i);
+    x.remove(1);
   }
   /*switch(value){
     case c:
