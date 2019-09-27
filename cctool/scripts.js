@@ -8,7 +8,7 @@ function racechange(){
   var value = race.value;
   switch(value){
     case "c":
-      cul.add("Schnecke");
+      addoption(cul,"Schnecke");
       break;
     case "e":
       break;
@@ -21,4 +21,10 @@ function racechange(){
     case "z":
       break;
   }
+}
+
+function addoption(x, name){
+  var option = document.createElement("option_" + name);
+  option.text = name;
+  x.add(option);
 }
