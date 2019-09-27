@@ -4,7 +4,7 @@ fuction racechange(value){
   for (i=0, i<4, i++){
     x.remove(i+1);
   }
-  switch(value){
+  /*switch(value){
     case c:
       break;
     case e:
@@ -17,5 +17,5 @@ fuction racechange(value){
       break;
     case z:
       break;
-  }
+  }*/
 }
