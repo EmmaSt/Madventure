@@ -32,10 +32,14 @@ function racechange(){
 }
 
 function culturbonus(){
-
+  var cul = document.getElementById('cultureselect');
+  value = cul.value;
+  //var data = object parsed from culturebonus.txt
+  //boni.data.value += 1;
 }
 
 function culturechange(){
+  racechange(); //maybe possible without calling this function every time?
   culturbonus();
 }
 
