@@ -7,18 +7,18 @@ function racechange(){
   var race = document.getElementById('raceselect');
   var value = race.value;
   switch(value){
-    case c:
+    case "c":
       cul.add("Schnecke");
       break;
-    case e:
+    case "e":
       break;
-    case gn:
+    case "gn":
       break;
-    case gr:
+    case "gr":
       break;
-    case n:
+    case "n":
       break;
-    case z:
+    case "z":
       break;
   }
 }
