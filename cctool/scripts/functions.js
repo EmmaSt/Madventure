@@ -31,8 +31,12 @@ function racechange(){
   racebonus();
 }
 
-function culturechange(){
+function culturbonus(){
 
+}
+
+function culturechange(){
+  culturbonus();
 }
 
 function adaptcultures(){
