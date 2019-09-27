@@ -1,11 +1,14 @@
 function racechange(){
-  var x = document.getElementById('cultureselect');
+  var cul = document.getElementById('cultureselect');
   var i = 0;
   for (i=0; i<4; i++){
-    x.remove(1);
+    cul.remove(1);
   }
-  /*switch(value){
+  var race = document.getElementById('raceselect');
+  var value = race.value;
+  switch(value){
     case c:
+      cul.add("Schnecke");
       break;
     case e:
       break;
@@ -17,5 +20,5 @@ function racechange(){
       break;
     case z:
       break;
-  }*/
+  }
 }
