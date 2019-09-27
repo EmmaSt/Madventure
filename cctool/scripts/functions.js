@@ -4,6 +4,7 @@ function racebonus(){
   var race = document.getElementById('raceselect');
   var value = race.value;
   boni = {ch:0, ge:0, in:0, ko:0, st:0, we:0};
+  //use parser!
   switch(value){
     case 'c':
       boni.ge = 1;
