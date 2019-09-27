@@ -4,22 +4,22 @@ function racebonus(){
   var value = race.value;
   boni = {ch:0, ge:0, in:0, ko:0, st:0, we:0};
   switch(value){
-    case "c":
+    case 'c':
       boni.ge = 1;
       break;
-    case "e":
+    case 'e':
       boni.we = 1;
       break;
-    case "gn":
+    case 'gn':
       boni.in = 1;
       break;
-    case "gr":
+    case 'gr':
       boni.st = 1;
       break;
-    case "n":
+    case 'n':
       boni.ch = 1;
       break;
-    case "z":
+    case 'z':
       boni.ko = 1;
       break;
   }
