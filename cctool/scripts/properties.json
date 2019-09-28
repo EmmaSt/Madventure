@@ -1,6 +1,6 @@
 {
-  "klettern":{name:"Klettern",attr:"st",val:0},
-  "einschuechtern":{name:"Einschüchtern",attr:"st",val:0},
-  "springen":{name:"Springen",attr:"st",val:0},
+  "klettern":{"name":"Klettern","attr":"st","val":0},
+  "einschuechtern":{"name":"Einschüchtern","attr":"st","val":0},
+  "springen":{"name":"Springen","attr":"st","val":0},
 
 }
