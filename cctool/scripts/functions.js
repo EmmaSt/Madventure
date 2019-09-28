@@ -4,8 +4,8 @@ function racebonus(){
   var race = document.getElementById('raceselect');
   sel = race.value;
   boni = {ch:0, ge:0, in:0, ko:0, st:0, we:0};
-  var bonus = rbonus.sel;
-  boni.bonus= 1;
+  var bonus = rbonus.[sel];
+  boni[bonus]= 1;
 }
 
 function racechange(){
