@@ -23,6 +23,7 @@ function culturbonus(){
 function culturechange(){
   racechange(); //maybe possible without calling this function every time?
   culturbonus();
+  alert("piep");
 }
 
 function adaptcultures(){
