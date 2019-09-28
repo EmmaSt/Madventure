@@ -16,8 +16,8 @@ function racechange(){
 function culturbonus(){
   var cul = document.getElementById('cultureselect');
   var sel = cul.value;
-  var bonus = cbonus.sel;
-  boni.bonus += 1;
+  var bonus = cbonus[sel];
+  boni[bonus] += 1;
 }
 
 function culturechange(){
