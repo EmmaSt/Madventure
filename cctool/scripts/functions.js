@@ -2,7 +2,7 @@ var boni = {ch:0, ge:0, in:0, ko:0, st:0, we:0};
 
 function test(){
 
-  var test = JSON.parse(properties);
+  var mytest = JSON.parse(properties);
 }
 
 function racebonus(){
