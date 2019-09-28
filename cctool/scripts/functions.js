@@ -4,27 +4,8 @@ function racebonus(){
   var race = document.getElementById('raceselect');
   var value = race.value;
   boni = {ch:0, ge:0, in:0, ko:0, st:0, we:0};
-  //use parser!
-  switch(value){
-    case 'c':
-      boni.ge = 1;
-      break;
-    case 'e':
-      boni.we = 1;
-      break;
-    case 'gn':
-      boni.in = 1;
-      break;
-    case 'gr':
-      boni.st = 1;
-      break;
-    case 'n':
-      boni.ch = 1;
-      break;
-    case 'z':
-      boni.ko = 1;
-      break;
-  }
+  bonus = rbonus.value;
+  boni.bonus = 1;
 }
 
 function racechange(){
