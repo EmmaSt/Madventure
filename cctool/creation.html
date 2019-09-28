@@ -6,24 +6,24 @@
 
 <body>
   <h1>Charaktererstellung</h1>
-  <script src="scripts/functions.js"></script>
-  <script src="culturebonus.js"></script>
-  <script src="racebonus.js"></script>
+  <script src='scripts/functions.js'></script>
+  <script src='culturebonus.js'></script>
+  <script src='racebonus.js'></script>
 
   <div id='points'>
     Verfügbare Punkte: 60
   </div>
 
   <div id='overview'>
-    Name: <input type="text" id='name'>
-    Geschlecht: <input type="text" id='gender'>
+    Name: <input type='text' id='name'>
+    Geschlecht: <input type='text' id='gender'>
     Klasse: <input type='text' id='class'>
 
   </div>
 
   <div id='race'>
     <form id='race'>
-      <select id='raceselect' onchange="racechange()">
+      <select id='raceselect' onchange='racechange()'>
         <option>Rasse auswählen...</option>
         <option value='c'>Chimäre</option>
         <option value='e'>Elf</option>
@@ -48,15 +48,15 @@
   </div>
 
 
-  <div id="eiginputs">
+  <div id='eiginputs'>
     Eigenschaften <br>
-      <form id="properties" >
-        St: <input type="number" id="St" min="0" max="20" value="1"><br>
-        Ko: <input type="number" id="Ko" min="0" max="20" value="1"><br>
-        Ge: <input type="number" id="Ge" min="0" max="20" value="1"><br>
-        In: <input type="number" id="In" min="0" max="20" value="1"><br>
-        We: <input type="number" id="We" min="0" max="20" value="1"><br>
-        Ch: <input type="number" id="Ch" min="0" max="20" value="1"><br>
+      <form id='properties' >
+        St: <input type='number' id='St' min='0' max='20' value='1'><br>
+        Ko: <input type='number' id='Ko' min='0' max='20' value='1'><br>
+        Ge: <input type='number' id='Ge' min='0' max='20' value='1'><br>
+        In: <input type='number' id='In' min='0' max='20' value='1'><br>
+        We: <input type='number' id='We' min='0' max='20' value='1'><br>
+        Ch: <input type='number' id='Ch' min='0' max='20' value='1'><br>
       </form>
   </div>
 

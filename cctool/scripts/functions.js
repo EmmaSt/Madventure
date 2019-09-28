@@ -53,47 +53,47 @@ function adaptcultures(){
   var race = document.getElementById('raceselect');
   var value = race.value;
   switch(value){
-    case "c":
-      addoption(cul,"Enchidna","ench");
-      addoption(cul,"Schnecke","schn");
-      addoption(cul,"Satyr","sat");
-      addoption(cul,"Zentaur","zen");
+    case 'c':
+      addoption(cul,'Enchidna','ench');
+      addoption(cul,'Schnecke','schn');
+      addoption(cul,'Satyr','sat');
+      addoption(cul,'Zentaur','zen');
       break;
-    case "e":
-      addoption(cul,"Dunkelelfe","de");
-      addoption(cul,"Hochelfe","he");
-      addoption(cul,"Steppenelfe","se");
-      addoption(cul,"Waldelfe","we");
+    case 'e':
+      addoption(cul,'Dunkelelfe','de');
+      addoption(cul,'Hochelfe','he');
+      addoption(cul,'Steppenelfe','se');
+      addoption(cul,'Waldelfe','we');
       break;
-    case "gn":
-      addoption(cul,"Felsgnom","fg");
-      addoption(cul,"Tiefengnom","tig");
-      addoption(cul,"Tüftelgnom","tueg");
-      addoption(cul,"Waldgnom","wg");
+    case 'gn':
+      addoption(cul,'Felsgnom','fg');
+      addoption(cul,'Tiefengnom','tig');
+      addoption(cul,'Tüftelgnom','tueg');
+      addoption(cul,'Waldgnom','wg');
       break;
-    case "gr":
-      addoption(cul,"Ent","ent");
-      addoption(cul,"Nork","no");
-      addoption(cul,"Riesen","ri");
-      addoption(cul,"Zyklopen","zy");
+    case 'gr':
+      addoption(cul,'Ent','ent');
+      addoption(cul,'Nork','no');
+      addoption(cul,'Riesen','ri');
+      addoption(cul,'Zyklopen','zy');
       break;
-    case "n":
-      addoption(cul,"Dryaden","dr");
-      addoption(cul,"Erdnymphen","erdn");
-      addoption(cul,"Luftnymphen","ln");
-      addoption(cul,"Wassernymphen","wn");
+    case 'n':
+      addoption(cul,'Dryaden','dr');
+      addoption(cul,'Erdnymphen','erdn');
+      addoption(cul,'Luftnymphen','ln');
+      addoption(cul,'Wassernymphen','wn');
       break;
-    case "z":
-      addoption(cul,"Bergzwerg","bz");
-      addoption(cul,"Hobbitzwerg","hz");
-      addoption(cul,"Tiefenzwerg","tz");
-      addoption(cul,"Wickyzwerg","wz");
+    case 'z':
+      addoption(cul,'Bergzwerg','bz');
+      addoption(cul,'Hobbitzwerg','hz');
+      addoption(cul,'Tiefenzwerg','tz');
+      addoption(cul,'Wickyzwerg','wz');
       break;
   }
 }
 
 function addoption(x, name, value){
-  var option = document.createElement("option");
+  var option = document.createElement('option');
   option.text = name;
   option.value = value;
   x.add(option);
