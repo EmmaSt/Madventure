@@ -1,0 +1,27 @@
+var cbonus =
+{
+  ench:0,
+  schn:0,
+  sat:0,
+  zen:0,
+  de:ch,
+  he:in,
+  se:ko,
+  we:ge,
+  fg:st,
+  tig:ko,
+  tueg:we,
+  wg:ge,
+  ent:ko,
+  no:0,
+  ri:ko,
+  zy:0,
+  dr:ko,
+  erdn:in,
+  ln:ge,
+  wn:ko,
+  bz:ge,
+  hz:we,
+  tz:st,
+  wz:we
+};
