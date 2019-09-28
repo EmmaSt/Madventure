@@ -5,7 +5,7 @@ function racebonus(){
   var sel = race.value;
   boni = {ch:0, ge:0, in:0, ko:0, st:0, we:0};
   var bonus = rbonus.sel;
-  boni.bonu= 1;
+  boni.bonus= 1;
 }
 
 function racechange(){
