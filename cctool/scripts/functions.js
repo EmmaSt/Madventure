@@ -4,7 +4,7 @@ function racebonus(){
   var race = document.getElementById('raceselect');
   var value = race.value;
   boni = {ch:0, ge:0, in:0, ko:0, st:0, we:0};
-  bonus = rbonus.value;
+  var bonus = rbonus.value;
   boni.bonus = 1;
 }
 
@@ -15,8 +15,8 @@ function racechange(){
 
 function culturbonus(){
   var cul = document.getElementById('cultureselect');
-  value = cul.value;
-  bonus = cbonus.value;
+  var value = cul.value;
+  var bonus = cbonus.value;
   boni.bonus += 1;
 }
 
