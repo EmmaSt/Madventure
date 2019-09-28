@@ -1,4 +1,3 @@
-//klettern:{attr:st, val:2}
 properties = {
   "klettern":{name:"Klettern",attr:"st",val:0},
   "einschuechtern":{name:"Einschüchtern",attr:"st",val:0},
